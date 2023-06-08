@@ -8,7 +8,9 @@ import HomeScreen from './screens/HomeScreen';
 export default function App() {
   return (
     <Provider store={store}>
-    <HomeScreen />
+      <View style={styles.container}>
+        <HomeScreen />
+      </View>
     </Provider>
   );
 }
